@@ -10,14 +10,17 @@ app.set('view engine', 'handlebars');
 const port = 4200;
 
 app.get('/', (req, res) => {
-
-    res.send('INDEX');
+    const title = 'Welcome2' ;
+    res.render('index', {
+        title: title
+    });
 });
 
 app.get('/about', (req, res) => {
 
-    res.send('ABOUT');
+    res.render('About');
 });
+
 
 app.listen(port, () => {
     console.log(`Server started on port ${port}`);
