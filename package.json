@@ -2,7 +2,7 @@
   "name": "fullstackexample",
   "version": "1.0.0",
   "description": "This is an example fullstack application using nodejs expressjs and mongodb.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
